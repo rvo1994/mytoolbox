@@ -1,5 +1,5 @@
 from mytoolbox.sqrt import sqrt
 
-def test_sqrt(n):
-    assert test_sqrt(4) == 2
-    assert test_sqrt(-4) == None
+def test_sqrt():
+    assert sqrt(4) == 2
+    assert sqrt(-4) == None
